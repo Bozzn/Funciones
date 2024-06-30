@@ -15,7 +15,7 @@ int main(){
     while (j != 3 && c != 3)
     {
     jugador = eleccionUsario();
-    cout << "***************************\n";
+    cout << "************************************\n";
     cout << "Jugador: ";
     mostrarEleccion(jugador); cout << endl;
 
@@ -26,18 +26,18 @@ int main(){
     if (resultado == 0)
     {
         cout << "Empate!\n";
-        cout << "***************************\n";
+        cout << "************************************\n";
         getch();
     } else if (resultado == 1)
     {
         cout << "Ganaste!\n";
-        cout << "***************************\n";
+        cout << "************************************\n";
         j++;
         getch();
     }else
     {
         cout << "Perdiste!\n";
-        cout << "***************************\n";
+        cout << "************************************\n";
         c++;
         getch();
     }
@@ -67,9 +67,9 @@ int main(){
 
 char eleccionUsario(){
     char jugador;   
-    cout << "****************************\n";
-    cout << "Piedra - Papel - Tijera.\n\n";
-    cout << "****************************\n";
+    cout << "************************************\n";
+    cout << "     Piedra - Papel - Tijera.\n\n";
+    cout << "************************************\n";
     cout << "r = Piedra.\n";
     cout << "p = Papel.\n";
     cout << "t = Tijera.\n";
